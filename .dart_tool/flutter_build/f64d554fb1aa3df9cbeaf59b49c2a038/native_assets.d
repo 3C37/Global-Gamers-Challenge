@@ -1,0 +1,1 @@
+ C:\\FlutterProject\\global_gamers_challenge\\.dart_tool\\flutter_build\\f64d554fb1aa3df9cbeaf59b49c2a038\\native_assets.yaml: 
