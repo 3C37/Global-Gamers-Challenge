@@ -28,7 +28,6 @@ class Building {
   bool isUpgradable;
   bool isConnected;
 
-
   Building(
       this.status,
       this.degree,
