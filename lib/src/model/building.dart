@@ -1,31 +1,41 @@
 class Building {
+  // 시스템적 요소
   String status;
   int degree;
   bool isHover;
 
+  // 구분
   String category;
   String name;
 
+  // 건설 - 소모자원
   int reqMoney;
   int reqWood;
   int reqOre;
 
+  // 건설 - 필요 공간
   int size;
 
-  List<String> flag;
+  // 건설 - 필요 조건
+  List<String> reqFlag;
 
+  // 건설 - 메인 파라미터
   int approvalRateAff;
   int envAff;
   int economyAff;
 
+  // 지속영향
   int constApprovalRateAff;
   int constEnvAff;
   int constEconomyAff;
 
   int reqElectricity;
-  int trashOutput;
+  int wasteDischarge;
 
+  // 업그레이드 기능
   bool isUpgradable;
+
+  // 도로 연결 여부
   bool isConnected;
 
 
@@ -39,7 +49,7 @@ class Building {
       this.reqWood,
       this.reqOre,
       this.size,
-      this.flag,
+      this.reqFlag,
       this.approvalRateAff,
       this.envAff,
       this.economyAff,
@@ -47,7 +57,7 @@ class Building {
       this.constEnvAff,
       this.constEconomyAff,
       this.reqElectricity,
-      this.trashOutput,
+      this.wasteDischarge,
       this.isConnected,
       this.isUpgradable
   );
